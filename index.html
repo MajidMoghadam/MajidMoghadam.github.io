@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="icon" href="images/SpongeBob.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon.ico" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <meta description="Personal Website of Majid Moghadam">
     <title>Majid Moghadam's Personal Website</title>
+<style media="screen">
+body {
+--text-color: #222;
+--bkg-color: #fff;
+}
+body.dark-theme {
+--text-color: #eee;
+--bkg-color: #121212;
+}
+
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background: var(--bkg-color);
+}
+
+h1,
+p {
+color: var(--text-color);
+}
+
+</style>
+
+
   </head>
-  <body bgcolor="lightblue">
-    <img src="images/SpongeBob.png" width="200px">
-    <h3>About myself</h3>
+  <body>
+
+
+
+
+<div class="personal">
+    <pre>
+      “I am Buddha, follower of the path.”
+      he greeted them, slapping his belly like a drum,
+      leaving a ripple effect that spread across his back,
+      gradually making its way across his layered neck
+
+              1934 Bar Mitzvah on the Moon
+    </pre>
+
+    <hr>
+
+
+<h1>Hey there! This is just a title</h2>
+  <p>I am just a boring text, existing here solely for the purpose of this demo</p>
+  <p>And I am just another one like the one above me, because two is better than having only one</p>
+
+<a href="portfolio.html">Majid's Portfolio</a>
+
+    <h1>Hello World</h1>
+    <img src="images/SpongeBob.png"
+    class="rounded shadow" border=1>hello world
+    <!-- <img src="images/ColorAnimation.gif" border=3> -->
+    <h3 id="myself">About myself</h3>
     <p style="text-indent: 50px;">
       <strong>something about yourself.</strong> something about yourself.
       <em>something about yourself.something about yourself.
@@ -21,29 +74,41 @@
       something about yourself.something about yourself.
     </p>
 
-    <h3>Hobbies</h3>
-    <ol type="a">
-      <li>Gaming</li>
-      <li>Biking</li>
-      <li>Fishing</li>
-      <ol>
-        <li>trout</li>
-        <li>bass</li>
-      </ol>
-      <li>making games</li>
-    </ol>
+    <hr class="redline">
+
+    <h3 >Hobbies</h3>
+    <div>
+      <table>
+        <tr>
+          <td>
+            <ol style="font:200% Arial Black" type="a">
+              <li>Gaming</li>
+              <li>Biking</li>
+              <li>Fishing</li>
+              <li>making games</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+
+    </div>
 
     <ul>
       <li>apple</li>
       <li>orange</li>
       <li>cherry</li>
     </ul>
+</div>
+
+<div class="professional">
 
     <h3>My favourite websites</h3>
     <ul>
       <li> <a href="https://www.cnn.com/" target="_blank"> CNN Website </a>   </li>
       <li> <a href="https://www.cbc.ca/">cbc news</a>   </li>
     </ul>
+
+    <hr class="redline">
 
     <table border="1" cellpadding="5" bgcolor="lightblue">
       <tr>
@@ -60,6 +125,10 @@
       </tr>
     </table>
 
+</div>
+
+<a href="Timetable.docx" download>Timetable 2018</a>
 
   </body>
+
 </html>
